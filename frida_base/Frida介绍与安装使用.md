@@ -1,8 +1,13 @@
- 
+### 安装
+
+pip install frida
+
+找到对应版本的frida-tool
+
+pip install frida-tools
 
 
-
-#### 如何升级frida版本
+### 如何升级frida版本
 
 直接从12升级15
 
@@ -22,5 +27,12 @@ frida15.2.2对于frida-tools 11.0.0
 
 pip install frida-tools=11.0.0
 
-又提示了 objection 错误 
+### 使用 
+
+推送frida-server到手机目录下
+
+chmod 777 frida-server
+./frida-server
+
+即可frida开启使用
 

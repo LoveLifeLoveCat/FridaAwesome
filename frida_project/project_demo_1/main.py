@@ -8,12 +8,10 @@ def on_message(message, data):
         print(message)
 
 
-jscode = """
-Java.perform(function () {});
-"""
+js_code = 
 
 process = frida.get_usb_device().spawn('com.miduoki.awesome')
-script = process.create_script(jscode)
+script = process.create_script(js_code)
 # script.on('message', on_message)
 # print('[*] Running CTF')
 # script.load()
