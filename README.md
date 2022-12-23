@@ -1,7 +1,9 @@
 # FridaAwesome
 
 安卓移动端的frida使用技巧记录
-文档+开源库+实战案例
+
+文档+源码示例+开源库+实战案例 四个步骤学习
+
 利用好github宝库
 
 #### 0.[Frida基础](frida_base)
